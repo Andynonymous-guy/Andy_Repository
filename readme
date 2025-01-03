@@ -1,0 +1,13 @@
+'''Thanks to https://github.com/joelibaceta/triangulator.git for the triangulator. 
+  Thank you to Tech With Tim from youtube for demonstrating how to make Corner detections found in polygonator using OpenCV.
+
+
+I have no idea how different files can interact so I threw everything into a single file, Main.py and ran it as one function lol.  
+Whoever happens to find this, if you want to use it for your own then here are the steps. 
+
+1. Create a png image of the outline of the shape you want to bash similar to the one in Outline.png, I used a skier.
+2. Run the Main.py file on your Python interpreter and replace the function call at the very bottom with the file name you want. 
+3. Wait 10 seconds and hope the deprecation errors don't blow up the program. 
+4. It will output the relative coordinates of the centroid and also draw the centroid onto the original image using the same coordinate system.
+
+'''
